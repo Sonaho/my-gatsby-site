@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Probatina"
+    title: "My personal project"
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sharp", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
@@ -14,5 +14,11 @@ module.exports = {
       "path": "./src/images/"
     },
     __key: "images"
+  }, {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `blog`,
+      path: `./blog`,
+    }
   }]
 };
