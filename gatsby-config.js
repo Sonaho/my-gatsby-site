@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: "Probatina"
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sharp", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
